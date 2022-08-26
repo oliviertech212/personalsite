@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background{
+  align-items: center;
+      min-height: 100vh;
+    background: url(background.jfif) center/cover no-repeat;
+}
+.background .containner{
+  position: relative;
+  max-width: 100%;
+top: 50vh;
+z-index:4;
+text-align: center;
+color: white;
+}
+.containner h1{
+  display: inline-block;
+  padding-bottom: 20px;
+border-bottom: 1px solid whitesmoke
+}
+.background .overlay{
+  background-color: #22A39F;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      opacity: 0.60;
+      /* filter: alpha(opacity=75); */
+      z-index: 1;
+
+}
+
+.background a{
+  height: 80px;
+  width: 110px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+
+}
